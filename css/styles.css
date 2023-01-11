@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/**************** CLASS STYLING **************/
+
+.top-container {
+    background-color: #47B5FF;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
