@@ -5,37 +5,41 @@ body {
 }
 
 h1 {
+    color: #06283D;
     margin: 0px;
     font-family: 'Dancing Script', cursive;
+    font-size: 5.625rem;
+    /* 1em == 100% == 16px;  rem = em that ignores parents font sizes.*/
+    margin: 50px auto 0;
+
 }
 
 h2 {
+    color: #06283D;
     font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Playfair Display', serif;
+    color: #256D85;
 }
 
+span {
+    text-decoration: underline;
+}
+
+a {
+    color: #256D85;
+}
 
 /**************** CLASS STYLING **************/
 
 .top-container {
-    background-color: #47B5FF;
+    background-color: #DFF6FF;
     position: relative;
     padding-top: 100px;
-}
-
-.middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-}
-
-.bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
 }
 
 .top-cloud {
@@ -48,4 +52,25 @@ h3 {
     position: absolute;
     left: 300px;
     top: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.notes-img {
+    width: 25%;
+    height: auto;
+    float: right;
+    /* only use float for what it is meant to do, that is for wrapping. DON'T USE IT FOR LAYOUT. Use positioning for layout instead */
+    margin-left: 30px;
 }
